@@ -22,6 +22,8 @@ class Triangle
         System.out.println("Enter the Base of the Triangle:");
         double Base = TR.nextDouble();
         Triangle A = new Triangle();
+        A.Height = Height;
+        A.Base = Base;
         System.out.println("The Area of Triangle is:" + A.getArea());
         System.out.println("Enter the Side1 of the Triangle:");
         double a = TR.nextDouble();
@@ -30,6 +32,9 @@ class Triangle
         System.out.println("Enter the Side2 of the Triangle:");
         double c = TR.nextDouble();
         Triangle P = new Triangle();
+        P.a = a;
+        P.b = b;
+        P.c = c;
         System.out.println("The Perimeter of the Triangle:" + P.getPeri());
     }
 
